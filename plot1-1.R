@@ -1,6 +1,6 @@
 # Set working directory and read data
 
-setwd("C:/Users/hufeiling/learning/datascience/datasciencecoursera/Class4ExploratoryAnalysis/Week1/Project")
+setwd("/datascience/datasciencecoursera/Class4ExploratoryAnalysis/Week1/Project")
 HouseholdData<-read.table("HouseholdData/household_power_consumption.txt",sep=";",header=T)
 
 # Subset data
