@@ -1,4 +1,4 @@
-setwd("C:/Users/hufeiling/learning/datascience/datasciencecoursera/Class4ExploratoryAnalysis/Week4/Project")
+setwd("/datascience/datasciencecoursera/Class4ExploratoryAnalysis/Week4/Project")
 
 #read data
 
@@ -63,7 +63,7 @@ dev.off()
 
 #Analysis shows that emissions that belong to "Non-Road","On-Road" and "Non-Point" was decreasing from 1999-2008, but emissions that belong to "Point" decreaed from 1999-2002, then increased a little from 2002-2005, and end up decreasing from 2005-2008 in U.S. which contributes to the tread of the total emissions in Baltimore.
 
-#Plot 4 - here we use 4 plots to show how emissions from coal combustion-related sources change from 1999¨C2008 across U.S. 
+#Plot 4 - here we use 4 plots to show how emissions from coal combustion-related sources change from 1999Â¨C2008 across U.S. 
 #Subset the data from coal combustion-related sources; Merge NEI data with SCC data by "SCC" as the key
 
 CoalSCC<-SCC[grep("(.*)[Cc]oal(.*)[Cc]ombustion", SCC$Short.Name),]
@@ -115,7 +115,7 @@ dev.off()
 
 #Analysis shows that total emissions from Coal Conbustion was decreasing from 1999-2002, but increasing from 2002-2008 across the country. From the remaining plots, we can see what Coal types or industry contribute to the trend.
 
-#Plot5:here we use 5 plots to show how emissions from Motor Vehicle sources change from 1999¨C2008 in Baltimore. 
+#Plot5:here we use 5 plots to show how emissions from Motor Vehicle sources change from 1999Â¨C2008 in Baltimore. 
 #Subset the data for Baltimore City and Motor Vehicle sources; Merge NEI data with SCC data by "SCC" as the key
 
 NEIBal<-subset(NEI,fips=="24510")
